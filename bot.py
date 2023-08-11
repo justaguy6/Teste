@@ -18,5 +18,5 @@ async def on_message(message):
     if message.content.startswith('!hello'):
         await message.channel.send('Olá, mundo!')
 
-TOKEN = 'MTEzMTYxNDE4ODA4NzgyNDQ4NA.GNtaaO.RkIByNxjyH85fjrZKNq4cXf57Gdnzp1wXKCT6c'
+TOKEN = 'MTEzMTYxNDE4ODA4NzgyNDQ4NA.Gj6fRw.7EagjeSzohf-6PVPoTPxrRsVNxFhkZe-QfQBlM'
 client.run(TOKEN)
